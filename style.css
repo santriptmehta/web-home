@@ -294,10 +294,10 @@ figure img,
 #hero h1{
     display: block;
     width: fit-content;
-    font-family: "Indie Flower",sans-serif;
+    font-family: "Montserrat",sans-serif;
     color: #a3a3a3;
+    font-weight: 200;
     font-size: 4rem;
-    font-weight: 20;
     position: relative;
     color:transparent;
     animation: text_reveal .2s ease forwards;
@@ -305,8 +305,8 @@ figure img,
 }
 #hero h2{
     display: block;
-    font-weight: 20;
-    font-family: "Indie Flower",sans-serif;
+    font-weight: 300;
+    font-family: "Montserrat",sans-serif;
     color: #a3a3a3;
     width: fit-content;
     font-size: 4rem;
@@ -348,7 +348,7 @@ figure img,
     font-size: 2rem;
     font-weight: 1;
     position: relative;
-    font-family: "Indie Flower", sans-serif ;
+    font-family: "Montserrat", sans-serif ;
     color:transparent;
     animation: text_reveal .4s ease forwards;
     animation-delay: 4s;
