@@ -111,6 +111,14 @@ a{
     align-items: center;
     justify-content: center;
 }
+.container_exp{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
 .container_dna{
     min-height: 50vh;
     width: 100%;
@@ -452,6 +460,7 @@ figure img,
     flex-direction: column;
     justify-content: space-between;
 }
+
 .skill-right{
     width: 350px;
     height: 150px;
@@ -809,7 +818,7 @@ figure img,
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #a3a3a3;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .experiance{
@@ -867,19 +876,28 @@ figure img,
     width: 80px;
     margin-bottom: 20px;
 }
-.skill-item h2{
-    font-size: 1.777rem;
-    color: white;
-    font-weight: 400;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-.skill-item p{
-    color: white;
-    text-align: left;
-
+.skill-item h2 {
+  color: white; /* Set text color to white */
+  margin-bottom: 10px;
 }
 
+.skill-item p {
+  color: white; /* Set text color to white */
+}
+
+.skill-item ul {
+  list-style: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-item li {
+  margin-bottom: 8px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
 
 
 
@@ -1347,6 +1365,9 @@ figure img,
 }
 #header .nav-list ul a:after{
     display: none;
+}
+#experiance{
+  margin-left: 100px;
 }
 #skill .skill-bottom .skill-item{
     flex-basis: 22% ;
