@@ -335,7 +335,7 @@ figure img,
     -webkit-text-fill-color: transparent;
     font-family: "walt-disney", sans-serif ;
     animation: move 3s ease-in-out infinite;
-    animation-delay: 3s;
+    animation-delay: 1s;
 }
 @keyframes move {
   0% {
@@ -359,7 +359,7 @@ figure img,
     font-family: "Montserrat", sans-serif ;
     color:transparent;
     animation: text_reveal .4s ease forwards;
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 
 
