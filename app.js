@@ -1,7 +1,16 @@
 console.log("JavaScript page has been initiated");
 
 
+document.addEventListener("scroll", function () {
+  const socialIcons = document.querySelector(".top-social-icon");
+  const scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
+  if (scrollPosition > 100) { // Adjust the scroll position as needed
+      socialIcons.classList.add("scrolled");
+  } else {
+      socialIcons.classList.remove("scrolled");
+  }
+});
 
 
 
