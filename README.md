@@ -1,7 +1,7 @@
 # SNB-Web-Codes
 This is my pesonal portfolio website
 
-It stands on the three texture HTML, CSS and JavaScript.
+It stands on the three texture HTML, CSS and JavaScript, Tailwind.
 
 Home Screen
 
