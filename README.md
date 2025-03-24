@@ -3,7 +3,7 @@ This is my pesonal portfolio website
 
 It stands on the three texture HTML, CSS and JavaScript, Tailwind.
 
-Home Screen ||
+Home Screen |||||||||||||||
 
 ![](images/Screenshot%20(62).png)
 ![](images/Screenshot%20(63).png)
